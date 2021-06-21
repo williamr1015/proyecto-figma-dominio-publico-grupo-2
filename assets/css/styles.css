@@ -30,7 +30,14 @@ body{
     text-decoration: none;
     color: white;
 }
-.logoMP{
-    margin-top: 6px;
-    margin-bottom: 6px;
+
+main{
+    padding-left: 312px;
+    padding-right: 312px;
+    padding-top: 112px;
+    padding-bottom: 412px;
+}
+logoIC{
+main{
+    
 }
