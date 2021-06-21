@@ -37,7 +37,9 @@ main{
     padding-top: 112px;
     padding-bottom: 412px;
 }
-logoIC{
-main{
-    
+
+.main-resulatdo{
+    display: grid;
+    grid-template-columns: 70% 30%;
+      
 }
