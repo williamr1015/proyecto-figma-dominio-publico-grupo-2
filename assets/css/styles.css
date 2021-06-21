@@ -37,9 +37,17 @@ body{
     padding-top: 112px;
     padding-bottom: 412px;
 }
+.navbar-resultados{
+    width: 100%;
+    display: flex;
+    padding-left: 74px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
 
 .main-resulatdo{
     display: grid;
     grid-template-columns: 70% 30%;
-      
 }
