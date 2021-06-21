@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 280px;
+}
+/* estilos navbar*/
+.navbar{
+    height: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    background: #3366CC;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.logoGov{
+    width: 64px;
+    height: 20px;
+    margin-top: 10px;
+}
+.Gov-co{
+    height: 20px;
+    margin-right: 22px;
+    margin-top: 10px;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.logoMP{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
