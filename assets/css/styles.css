@@ -46,7 +46,9 @@ body{
     padding-bottom: 12px;
 
 }
-
+#hr-main{
+    background-color: #CCCCCC;
+}
 .main-resulatdo{
     display: grid;
     grid-template-columns: 70% 30%;
