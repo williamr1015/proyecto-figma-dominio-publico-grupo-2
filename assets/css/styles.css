@@ -43,3 +43,46 @@ main{
     grid-template-columns: 70% 30%;
       
 }
+
+/* pantalla 320
+
+.tarjeta-alfredo-alvares {
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+
+    padding: 10px 20px;
+}
+
+.tarjeta-alfredo-alvares h4 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #004884;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.titulo {
+    color: #004884;
+    font-family: work sans, Sans;
+    font-size: 14px;
+}*/
+
+.tarjeta-alfredo-alvares {
+    text-align: start;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.tarjeta-alfredo-alvares h4 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #004884;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 20px;
+
+}
