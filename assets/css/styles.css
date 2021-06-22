@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -93,6 +95,102 @@ body{
 .main-resulatdo{
     display: grid;
     grid-template-columns: 70% 30%;
+      
+}
+
+/* pantalla 320
+
+.tarjeta-alfredo-alvares {
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+
+    padding: 10px 20px;
+}
+
+.tarjeta-alfredo-alvares h4 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #004884;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.titulo {
+    color: #004884;
+    font-family: work sans, Sans;
+    font-size: 14px;
+}*/
+
+.tarjeta-alfredo-alvares {
+    text-align: start;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta-alfredo-alvares h4 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #004884;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.contenedor-informacion {
+    display: flex;
+    justify-content: initial;
+    flex-direction:initial;
+
+
+}
+
+.titulo {
+    color: rgba(0, 72, 132, 1);
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contenido {
+    color:rgba(75, 75, 75, 1);
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.titulo-contenido-2 {
+    padding-left: 120px;
+}
+
+.alfredo-circulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.alfredo-circulo p {
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    color:rgba(75, 75, 75, 1);
+}
+
+.imagen-texto {
+    text-align: center;
 }
 /* estilos container estadisticas */
 .estadisticas{
