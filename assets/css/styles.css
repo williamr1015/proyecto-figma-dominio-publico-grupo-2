@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -82,7 +84,30 @@ main{
     padding-bottom: 15px;
     color: #004884;
     font-weight: 600;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 
+}
+
+.contenedor-informacion {
+    display: flex;
+
+}
+
+.titulo {
+    color: rgba(0, 72, 132, 1);
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+}
+
+.contenido {
+    color:rgba(75, 75, 75, 1);
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+
+}
+.columnas-resultados {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
 }
