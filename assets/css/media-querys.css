@@ -120,6 +120,13 @@
         margin-left: 25px;
         font-size: 20px;
     }
+    .main-resulatdo{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .relatoria{
+        display: none;
+    }
 }
 /* contenedores Jhovanny */
 @media all and (max-width: 991px) { 
@@ -193,3 +200,5 @@
         text-align: center;
     }
  }
+
+
