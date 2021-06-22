@@ -1,0 +1,123 @@
+@media screen and (max-width: 1350px){
+    .logoIC{
+        width: 152px;
+        height: 32;
+        margin-left: 42px;
+    }
+    .buscador{
+        width: 500px;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 40px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .gurardados{
+        margin-left: 170px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .logoIC{
+        width: 152px;
+        height: 32;
+        margin-left: 37px;
+    }
+    .buscador{
+        width: 470px;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 35px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .gurardados{
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width: 1160px){
+    .logoIC{
+        width: 152px;
+        height: 32;
+        margin-left: 33px;
+    }
+    .buscador{
+        width: 440px;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 30px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .gurardados{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .logoIC{
+        width: 152px;
+        height: 32;
+        margin-left: 28px;
+    }
+    .buscador{
+        width: 420px;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 25px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .gurardados{
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .logoIC{
+        width: 152px;
+        height: 32;
+        margin-left: 23px;
+    }
+    .buscador{
+        width: 400px;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 20px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .gurardados{
+        margin-left: 75px;
+    }
+}
+@media screen and (max-width: 990px){
+    
+    .buscador{
+        width: 70vw;
+        height: 40px;
+        border: 1px solid #4B4B4B;
+        border-radius: 20px;
+        margin-left: 25px;
+        align-content: center;
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+    .filtro{
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .gurardados{
+        margin-top: 15px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+}
