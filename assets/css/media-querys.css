@@ -200,5 +200,77 @@
         text-align: center;
     }
  }
-
+/*last card Erika*/
+@media all and (max-width: 991px) { 
+    .last-card {
+        text-align: start;
+        border-radius: 15px;
+        background-color: white;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;    
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .last-card h4 {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #004884;
+    
+    }    
+    .card-info {
+        display: flex;
+        justify-content: initial;
+        flex-direction:initial; 
+    }    
+    .title{
+        font-size: 14px;
+        font-family: 'Work sans', sans-serif;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: #004884;
+    }    
+    .info {
+        font-size: 14px;
+        font-family: 'Work sans', sans-serif;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: #4B4B4B;
+    
+    }    
+    .rows-one {
+        padding-left: 70px;
+    }    
+    .icon-circle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;    
+    }    
+    .icon-circle p {
+        font-size: 14px;
+        font-family: 'Work sans', sans-serif;
+        color:#4B4B4B;
+    }    
+    .icon-save {
+        height: 85px;
+        width: 40px;
+        display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+        justify-content: space-around;    
+    }    
+    .icon-save p {
+        font-size: 14px;
+        font-family: 'Work sans', sans-serif;
+        padding-left: 0px;
+        padding-right: 20px;
+        color:#3366CC;
+    }
+    
+    
+ }
 
