@@ -191,6 +191,83 @@ body{
 .imagen-texto {
     text-align: center;
 }
+
+/*ultima tarjeta eb*/
+.last-card {
+    display:grid;
+    grid-template-columns: 80%  20%;
+    text-align: start;
+    border-radius: 20px;
+    padding: 20px 10px;   
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.last-card a {
+    display: flex;
+    justify-content: initial;
+    flex-direction: initial;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #004884;
+}
+.card-info {
+    display: flex;
+    justify-content: initial;
+    flex-direction:initial;
+}
+.rows {
+    padding-left: 10px;
+}
+.title {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Work sans', sans-serif;
+    font-size: 14px;
+    color: #004884;
+}
+.info {
+    padding-bottom: 10px;
+    padding-left: 10px;    
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    color:#4B4B4B;  
+
+}
+.rows-one {
+    padding-left: 120px;
+}
+
+.icon-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.icon-circle p {
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    text-align: center;
+    color:#4B4B4B;
+}
+.icon-save {
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+}
+.icon-save p {
+    font-size: 14px;
+    font-family: 'Work sans', sans-serif;
+    padding-left: 0px;
+    color:#3366CC;    
+}
 /* estilos relatoria */
 .relatoria{
     display: grid;
