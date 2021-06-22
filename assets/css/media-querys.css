@@ -120,4 +120,11 @@
         margin-left: 25px;
         font-size: 20px;
     }
+    .main-resulatdo{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .relatoria{
+        display: none;
+    }
 }
