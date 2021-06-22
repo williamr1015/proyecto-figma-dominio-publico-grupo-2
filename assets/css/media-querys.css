@@ -62,3 +62,11 @@
     }
 
 }
+@media screen and (max-width: 750px){
+    .navbar-resultados{
+        justify-content: flex-start;
+}
+.menu-box{
+    display: block;
+    
+}

@@ -115,6 +115,24 @@ body{
     line-height: 24px;
     font-weight: 400;
 }
+.menu-box{
+    display: none;
+    width: 30px;
+    font-size: 1rem;
+    color:black;
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 1px #4B4B4B;
+    border-radius: 1rem;
+    padding: 10px 10px 10px 10px;
+    background-color: #3366CC;
+    
+}
+#chbox{
+    display: none;
+}
 .main-resulatdo{
     display: grid;
     grid-template-columns: 70% 30%;
