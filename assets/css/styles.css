@@ -33,13 +33,24 @@ body{
     color: white;
 }
 
-main{
+.main-index{
     padding-left: 312px;
     padding-right: 312px;
     padding-top: 112px;
     padding-bottom: 412px;
 }
+.navbar-resultados{
+    width: 100%;
+    display: flex;
+    padding-left: 74px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 
+}
+#hr-main{
+    background-color: #CCCCCC;
+}
 .main-resulatdo{
     display: grid;
     grid-template-columns: 70% 30%;
@@ -77,6 +88,7 @@ main{
     border-radius: 20px;
     background-color: white;
     padding: 10px 20px;
+    display: flex;
 }
 
 .tarjeta-alfredo-alvares h4 {
