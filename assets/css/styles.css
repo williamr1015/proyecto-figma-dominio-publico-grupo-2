@@ -41,8 +41,8 @@ body{
     width: 100%;
     display: flex;
     align-content: center;
-    padding-left: 74px;
-    padding-right: 16px;
+    padding-left: 5.8%;
+    padding-right: 1.3%;
     padding-top: 12px;
     padding-bottom: 12px;
 
@@ -50,13 +50,9 @@ body{
 #hr-main{
     background-color: #CCCCCC;
 }
-.main-resulatdo{
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
 .logoIC{
-    width: 12%;
-    height: auto;
+    width: 152px;
+    height: 32px;
     margin-right: 5.9%;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -106,7 +102,7 @@ body{
 .guardado{
     width: 14;
     height: 18;
-    margin-left: 16.2%;
+    margin-left: 15%;
     margin-top: 11px;
     margin-bottom: 11px;     
 }
@@ -118,4 +114,8 @@ body{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+}
+.main-resulatdo{
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
