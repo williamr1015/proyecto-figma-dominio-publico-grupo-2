@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/media-querys.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,500&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Dominio Publico Grupo 2</title>
 </head>
 <body>
-    <header class="navbar">
+    <header class="navbar-header">
         <img class="logoGov" src="./assets/icons/GOV.CO_Logo-white.png" alt="Logo Govierno de Colombia">
         <span>
             <span>
@@ -22,126 +25,170 @@
     </header>
     <main>
 
-        <hr/ id="hr-main">
-
-        <section class="navbar-resultados">
-            <img src="./assets/imgs/Logo industria y comercio-color.png" alt="logo industria y comercio">
-            <img src="./assets/imgs/barra de busqueda pagina resulatados.png" alt="Busqueda">
-            <img src="./assets/icons/icono guardados.png" alt="Guardados">
-            <span>Guardados</span>
+        <section >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand logoIC" href="#"><img src="./assets/imgs/Logo Industria y Comercio-color.png" alt="logo industria y comercio"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex buscador">
+                        <img src="./assets/icons/lupa-buscar.png" alt="buscar">
+                        <input class="form-control me-2" type="search" placeholder="Demanda colectiva" aria-label="Search">
+                        <img src="./assets/icons/cerrar-buscar.png" alt="cerrar">
+                      </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item filtro">
+                        <a class="nav-link active" aria-current="page" href="#">Ver filtros  <img src="./assets/icons/chevron filtro.png" alt="filtros"></a>
+                      </li>
+                      <li class="nav-item gurardados">
+                        <a class="nav-link active" href="#"><img src="./assets/icons/icono guardados.png" alt="guardados"> Guardados</a>
+                      </li>
+                    </ul>                       
+                  </div>
+                </div>
+              </nav>
         </section>
+        <hr id="hr-main"/>
 
-        <section class="main-resulatdo">
+            <section class="main-resulatdo">
+                <container>
+                    <div>div de wiliam</div>
+                    <div>div de wiliam</div>
 
-            <div>DIV PARA DESARROLLAR por william </div>
-            <div>DIV PARA DESARROLLAR por Esteban</div>
-            <div>DIV PARA DESARROLLAR por william</div>
-            <div>DIV PARA DESARROLLAR por Esteban</div>
-
-            <!--<div>DIV PARA DESARROLLAR por Jhovanny</div>-->
-
-           <div class="tarjeta-alfredo-alvares">
+                    <div class="tarjeta-alfredo-alvares">
                 
-            <div>
-                <h4>Alfredo Alvarez Santana-Killacel</h4>
-                <hr>
-                <br>
-                <div class="contenedor-informacion">
-                    <div class="columnas-resultados">
                         <div>
-                            <p class="titulo">Fecha de providencia:</p>
-                            <p class="contenido">16/08/20</p>
-                        </div>
-                        <div>
-                            <p class="titulo">Número de expediente:</p>
-                            <p class="contenido">20-25689451</p>
-                        </div>
-
-                    </div>
-                    <div class="titulo-contenido-2">
-                        <div>
-                            <p class="titulo">Tipo de proceso:</p>
-                            <p class="contenido">Protección al consumidor</p>
-                        </div>
-                        <div>
-                            <p class="titulo">Tipo de providencia:</p>
-                            <p class="contenido">Sentencia</p>
-                        </div>
-
-
-                    </div>
-
-                </div>
-                
-
-    
-            </div>
-            <div class="alfredo-circulo">
-                <div class="imagen-texto">
-                        <img src="assets/imgs/circle_75.svg">
-                        <p>Relevancia</p>
-                </div>
-                <div class="imagen-texto">
-                    <img src="assets/imgs/Vector.svg" alt="">
-                    <p>Guardar</p>
-                </div>
-            </div>
+                            <h4>Alfredo Alvarez Santana-Killacel</h4>
+                            <hr>
+                            <br>
+                            <div class="contenedor-informacion">
+                                <div class="columnas-resultados">
+                                    <div>
+                                        <p class="titulo">Fecha de providencia:</p>
+                                        <p class="contenido">16/08/20</p>
+                                    </div>
+                                    <div>
+                                        <p class="titulo">Número de expediente:</p>
+                                        <p class="contenido">20-25689451</p>
+                                    </div>
             
-        </div>
-        <div>Div para desarrollar Esteban</div>
-        <div class="tarjeta-alfredo-alvares">
-                
-            <div>
-                <h4>Nelly Giraldo Giraldo Otros- Gales Asociados S.A.S</h4>
-                <hr>
-                <br>
-                <div class="contenedor-informacion">
-                    <div class="columnas-resultados">
-                        <div>
-                            <p class="titulo">Fecha de providencia:</p>
-                            <p class="contenido">15/04/21</p>
-                        </div>
-                        <div>
-                            <p class="titulo">Número de expediente:</p>
-                            <p class="contenido">20-251651651</p>
-                        </div>
-
-                    </div>
-                    <div class="titulo-contenido-2">
-                        <div>
-                            <p class="titulo">Tipo de proceso:</p>
-                            <p class="contenido">Protección al consumidor</p>
-                        </div>
-                        <div>
-                            <p class="titulo">Tipo de providencia:</p>
-                            <p class="contenido">Sentencia</p>
-                        </div>
-
-
-                    </div>
-
-                </div>
-                
-
-    
-            </div>
-            <div class="alfredo-circulo">
-                <div class="imagen-texto">
-                        <img src="assets/imgs/circle_75.svg">
-                        <p>Relevancia</p>
-                </div>
-                <div class="imagen-texto">
-                    <img src="assets/imgs/Vector.svg" alt="">
-                    <p>Guardar</p>
-                </div>
-            </div>
+                                </div>
+                                <div class="titulo-contenido-2">
+                                    <div>
+                                        <p class="titulo">Tipo de proceso:</p>
+                                        <p class="contenido">Protección al consumidor</p>
+                                    </div>
+                                    <div>
+                                        <p class="titulo">Tipo de providencia:</p>
+                                        <p class="contenido">Sentencia</p>
+                                    </div>
             
-        </div>
+            
+                                </div>
+            
+                            </div>
+                            
+            
+                
+                        </div>
+                        <div class="alfredo-circulo">
+                            <div class="imagen-texto">
+                                    <img src="assets/imgs/circle_75.svg">
+                                    <p>Relevancia</p>
+                            </div>
+                            <div class="imagen-texto">
+                                <img src="assets/imgs/Vector.svg" alt="">
+                                <p>Guardar</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div>Div para desarrollar Esteban</div>
+                    <div class="tarjeta-alfredo-alvares">
+                            
+                        <div>
+                            <h4>Nelly Giraldo Giraldo Otros- Gales Asociados S.A.S</h4>
+                            <hr>
+                            <br>
+                            <div class="contenedor-informacion">
+                                <div class="columnas-resultados">
+                                    <div>
+                                        <p class="titulo">Fecha de providencia:</p>
+                                        <p class="contenido">15/04/21</p>
+                                    </div>
+                                    <div>
+                                        <p class="titulo">Número de expediente:</p>
+                                        <p class="contenido">20-251651651</p>
+                                    </div>
+            
+                                </div>
+                                <div class="titulo-contenido-2">
+                                    <div>
+                                        <p class="titulo">Tipo de proceso:</p>
+                                        <p class="contenido">Protección al consumidor</p>
+                                    </div>
+                                    <div>
+                                        <p class="titulo">Tipo de providencia:</p>
+                                        <p class="contenido">Sentencia</p>
+                                    </div>
+            
+            
+                                </div>
+            
+                            </div>
+                            
+            
+                
+                        </div>
+                        <div class="alfredo-circulo">
+                            <div class="imagen-texto">
+                                    <img src="assets/imgs/circle_75.svg">
+                                    <p>Relevancia</p>
+                            </div>
+                            <div class="imagen-texto">
+                                <img src="assets/imgs/Vector.svg" alt="">
+                                <p>Guardar</p>
+                            </div>
+                        </div>
+                        
+                    </div>
 
-        <div>DIV PARA DESARROLLAR por Jhovanny</div>
+                    <div>seccion de erika</div>
+                    <div>seccion de erika</div>
 
-        <div>DIV PARA DESARROLLAR por Erika</div>
-        </section>
+                </container>
+                <container class="relatoria">
+                    <h3 class="title-relatoria">información general de la relatoria</h3>
+                    <div class="content-relatoria">
+                        <h3 class="title-detail-relatoria">Alfredo Alvarez Santana-Killacel </h3>
+                       <div class="detail-relatoria">
+                           <span class="title-detail">Número de expediente: </span> 20-2033020
+                       </div>
+                       <div class="detail-relatoria">
+                        <span class="title-detail">Fecha de providencia: </span> 2020-08-16
+                        </div>
+                    <section class="bottom-relatoria"><span></span> <a href="#">IR A RELATORÍA</a> </section>
+                    </div>
+                    <div class="content-relatoria"> 
+                        <section class="concidencias">
+                            <div class="title-concidencias">28 Concidencias</div> <div><span class="row-left"></span><span class="page">01</span> <span class="row-right"></span></div>
+                        </section>
+                        <div class="text-concidencias">
+                            ...si la decisión de remover a Serviucis S.A. de la junta directiva de NCSC S.A.S. adolece de nulidad absoluta por <span style="background-color: #D1FFE3;">demanda colectiva </span>en los términos del artículo 43 de la Ley 1258 de 2008...
+                        </div>
+
+                    </div>
+                    <div class="content-relatoria">
+                    <section class="number-relatoria" >
+                        <h3>RELATORÍA#1</h3><br><br>                                       
+                        La demanda presentada ante este Despacho está orientada a establecer si la decisión de remover a Serviucis S.A. de la junta directiva de NCSC S.A.S. adolece de nulidad absoluta.<br><br>
+                        Despacho está orientada a establecer si la decisión de remover a Serviucis S.A. de la junta directiva de NCSC S.A.S. adolece de nulidad absoluta Despacho está orientada a establecer si la decisión de remover a Serviucis S.A. de la junta directiva de NCSC S.A.S. adolece de nulidad absolutaz
+                    </section>
+                    </div> 
+                </container>
+            </section>
     </main>
     <footer></footer>
     <script src="./assets/js/resultado.js"></script>
