@@ -7,5 +7,6 @@ document.getElementById("buttonIndex").onclick = function () {
     localStorage.setItem("puente",texto);
     console.log(texto);
     localStorage.setItem("seguro","si");
+    document.getElementById("inputIndex").value="";
 
 }
