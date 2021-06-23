@@ -55,6 +55,9 @@
         <!-- cards parte de william -->
             <section class="main-resulatdo">
                 <container>
+                    <div class="button-mostrar"><button onclick="mostrarRelatoria()" class="bottom-relatoria"><a href="#">RELATORÍA</a></button>
+                    </div>
+
                     <div class="estadisticas">
                         <div class="countainer-estadistica">
                             <p>Rango de tiempo (de providencia):</p>
@@ -248,8 +251,11 @@
             </div>                   
 
                 </container>
-                <container class="relatoria">
-                    <h3 class="title-relatoria">información general de la relatoria</h3>
+                <container class="relatoria" id="relatoria">
+                    <div class="head-relatoria">
+                        <span class="cerrar" id="cerrar">cerrar</span>
+                        <h3 class="title-relatoria">información general de la relatoria</h3>
+                    </div>
                     <div class="content-relatoria">
                         <h3 class="title-detail-relatoria">Alfredo Alvarez Santana-Killacel </h3>
                        <div class="detail-relatoria">
@@ -307,3 +313,5 @@
     <script src="./assets/js/resultado.js"></script>
 </body>
 </html>
+
+

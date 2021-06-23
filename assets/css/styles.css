@@ -855,6 +855,18 @@ footer {
   grid-template-columns: 70% 30%;
 }
 /* estilos relatoria */
+.head-relatoria{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.head-relatoria .cerrar{
+  display: none;
+  cursor: pointer;
+}
+.button-mostrar{
+  display: none;  
+}
 .relatoria {
   display: grid;
   grid-template-rows: 50px 240px 240px 340px;
