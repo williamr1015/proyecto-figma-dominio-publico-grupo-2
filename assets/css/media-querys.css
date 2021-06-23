@@ -152,7 +152,7 @@
     .relatoria{
         display: none;
     }
-}
+
 /* contenedores segunda y tercera tarjeta */
     .relatoria.mostrar{
         display: grid;
@@ -174,7 +174,7 @@
         justify-content: flex-end;
     
     }
-
+}
 /* contenedores Jhovanny */
 @media all and (max-width: 991px) { 
 
