@@ -201,7 +201,7 @@
     }
  }
 /*last card Erika*/
-@media all and (max-width: 321px) {
+@media all and (max-width: 1350px) {
         /*footer*/
  .pagination-container {    
        display: flex;
