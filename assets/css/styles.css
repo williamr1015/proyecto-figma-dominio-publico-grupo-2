@@ -96,31 +96,7 @@ body {
       
 }
 
-/* pantalla 320
 
-.tarjeta-alfredo-alvares {
-    text-align: center;
-    border-radius: 20px;
-    background-color: white;
-
-    padding: 10px 20px;
-}
-
-.tarjeta-alfredo-alvares h4 {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    color: #004884;
-    font-weight: 600;
-    font-family: monospace;
-    font-size: 20px;
-
-}
-
-.titulo {
-    color: #004884;
-    font-family: work sans, Sans;
-    font-size: 14px;
-}*/
 
 .tarjeta-alfredo-alvares {
     text-align: start;
@@ -136,8 +112,8 @@ body {
 }
 
 .tarjeta-alfredo-alvares h4 {
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     color: #004884;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -154,18 +130,19 @@ body {
 }
 
 .titulo {
-    color: rgba(0, 72, 132, 1);
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  color: rgba(0, 72, 132, 1);
+  font-size: 14px;
+  font-family: 'Work sans', sans-serif;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  margin-bottom: 12px;
 }
 
 .contenido {
     color:rgba(75, 75, 75, 1);
     font-size: 14px;
     font-family: 'Work sans', sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left: 10px;
 
 }
@@ -177,7 +154,7 @@ body {
 .alfredo-circulo {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
