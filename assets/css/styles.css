@@ -136,10 +136,71 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-left: 8px;
+}
+.main-pdf-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 128px;
+  padding-bottom: 8px;
 }
 
+.main-pdf-text span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4b4b4b;
+}
+.main-pdf-text a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3366cc;
+}
+.main-pdf-data {
+  display: flex;
+  width: 656px;
+  height: 176px;
+  border: 1px solid #dcdcdc;
+  border-radius: 16px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-pdf-data img {
+  width: 96px;
+  height: 48px;
+}
 
+.main-pdf-data .data-input {
+  display: flex;
+  justify-content: center;
+}
+.main-pdf-data .data-input input {
+  position: absolute;
+  opacity: 0;
+}
+.main-pdf-data .data-input span {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4b4b4b;
+}
+.main-pdf-data .data-input .selectData {
+  color: #3366cc;
+  text-decoration: underline #3366cc;
+  padding: 0 5px;
+}
 #hr-main {
   background-color: #cccccc;
 }
