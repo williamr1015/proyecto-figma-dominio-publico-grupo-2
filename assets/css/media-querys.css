@@ -78,7 +78,7 @@
         margin-left: 90px;
     }
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1120px){
     .logoIC{
         width: 152px;
         height: 32;
@@ -96,6 +96,31 @@
     }
     .gurardados{
         margin-left: 75px;
+    }
+    .demanda{
+        padding: 5px;
+        margin-left: 40px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .demanda img{
+        margin-left: 20px;
+    }
+    .fecha{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .fecha img{
+        margin-left: 20px;
+    }
+    .proteccion{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .proteccion img{
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 990px){
@@ -128,6 +153,28 @@
         display: none;
     }
 }
+/* contenedores segunda y tercera tarjeta */
+    .relatoria.mostrar{
+        display: grid;
+        position: absolute;
+        background-color: white;
+        height: 1000px;
+        margin-left: calc(50% - 190px);
+        box-shadow: 0px 1px 10px black;
+    }
+
+    .button-mostrar{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .head-relatoria .cerrar{
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+
 /* contenedores Jhovanny */
 @media all and (max-width: 991px) { 
 
@@ -137,8 +184,8 @@
         background-color: white;
         padding: 10px 20px;
         display: flex;
-        flex-direction: column;
-    
+        flex-direction: row;
+        justify-content: space-between;
         margin-left: 30px;
         margin-right: 20px;
         margin-top: 20px;
@@ -166,15 +213,16 @@
         color: rgba(0, 72, 132, 1);
         font-size: 14px;
         font-family: 'Work sans', sans-serif;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         padding-left: 10px;
+        margin-bottom: 12px;
     }
     
     .contenido {
         color:rgba(75, 75, 75, 1);
         font-size: 14px;
         font-family: 'Work sans', sans-serif;
-        padding-bottom: 10px;
+        padding-bottom: 7px;
         padding-left: 10px;
     
     }
@@ -185,8 +233,9 @@
     
     .alfredo-circulo {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 25px;
     
     }
     
@@ -198,6 +247,7 @@
     
     .imagen-texto {
         text-align: center;
+        padding-bottom: 12px;
     }
  }
 /*last card Erika*/
@@ -216,13 +266,226 @@
        background-color: #FAFBFD;
        color:#004884;
     } 
+}
+@media screen and (max-width: 850px){
+    .demanda{
+        padding: 5px;
+        margin-left: 40px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .demanda img{
+        margin-left: 20px;
+    }
+    .fecha{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .fecha img{
+        margin-left: 20px;
+    }
+    .proteccion{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .proteccion img{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 750px){
+    .demanda{
+        padding: 5px;
+        margin-left: 30px;
+        margin-right: 0;
+        font-size: 10px;
+    }
+    .demanda img{
+        margin-left: 15px;
+    }
+    .fecha{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .fecha img{
+        margin-left: 15px;
+    }
+    .proteccion{
+        padding: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .proteccion img{
+        margin-left: 15px;
+    }
+    .tresultados{
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    .ordenar{
+        font-size: 12px;
+    }
+    .relevancia-boton{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .relevancia-boton img{
+        margin-left: 10px;
+    }
+    .container-print{
+        padding: 10px;
+    }
+    .container-principal h2{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .img-75{
+        margin-left: 10px;
+    }
+    .container-table h4{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .container-table p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .img-guardar{
+        padding: 22px;
+    }
+    .img-guardar img{
+        margin-left: 15px;
+    }
+    .img-guardar p{
+        font-size: 14px;
+    }
+
+
+    .tarjeta-alfredo-alvares {
+        text-align: start;
+        border-radius: 15px;
+        background-color: white;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .tarjeta-alfredo-alvares h4 {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        color: #004884;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    
+    }
+    
+    .contenedor-informacion {
+        display: flex;
+        justify-content: initial;
+        flex-direction:initial;
+    
+    
+    }
+    
+    .titulo {
+        color: rgba(0, 72, 132, 1);
+        font-size: 12px;
+        font-family: 'Work sans', sans-serif;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .contenido {
+        color:rgba(75, 75, 75, 1);
+        font-size: 12px;
+        font-family: 'Work sans', sans-serif;
+        padding-bottom: 7px;
+        padding-left: 10px;
+    
+    }
+    
+    .titulo-contenido-2 {
+        padding-left: 70px;
+    }
+    
+    .alfredo-circulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 25px;
+        padding-left: 5px;
+    
+    }
+    
+    .alfredo-circulo p {
+        font-size: 14px;
+        font-family: 'Work sans', sans-serif;
+        color:rgba(75, 75, 75, 1);
+    }
+    
+    .imagen-texto {
+        text-align: center;
+        padding-bottom: 12px;
+    }
 
     .pagination-container a {
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-top: 3px;
-      color: #3366CC; 
-   }
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 3px;
+        color: #3366CC; 
+    }
+    .pagination-one{    
+        border-radius: 6px;    
+        width: 25px;    
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;   
+        background: #E6EFFD;
+    }
+    .pagination-two{
+        border-radius: 6px;    
+        width: 25px;    
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;   
+    }  
+    .pagination-dots{
+        border-radius: 6px;    
+        width: 25px;    
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;   
+        
+    }  
+    .pagination-twenty {
+        border-radius: 6px;    
+        width: 25px;    
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;  
+    } 
+    .pagination-container a {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 3px;
+        color: #3366CC; 
+    }
   .pagination-one {    
       border-radius: 6px;    
       width: 25px;    
@@ -262,3 +525,33 @@
     }  
 }
 
+@media screen and (max-width: 650px){
+    .filtro-busqueda span{
+        display: block;
+        margin-left: 30px;
+        width: 200px;
+    }
+    .demanda img{
+        margin-left: 75px;
+    }
+    .fecha img{
+        margin-left: 32px;
+    }
+    .proteccion img{
+        margin-left: 47px;
+    }
+    .div-containers{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .container-resultados{
+        margin-top: 45px;
+    }
+}
+@media screen and (max-width: 540px){
+    .container-print{
+        grid-template-columns: 77% 23%;
+        height: 250px;
+        margin-top: 10px;
+    }
+}
