@@ -93,8 +93,7 @@ body{
 }
 .main-resulatdo{
     display: grid;
-    grid-template-columns: 70% 30%;
-      
+    grid-template-columns: 70% 30%;      
 }
 
 /* pantalla 320
@@ -193,13 +192,13 @@ body{
 }
 
 /*ultima tarjeta eb*/
+
 .last-card {
-    display:grid;
-    grid-template-columns: 80%  20%;
+    display:flex;
     text-align: start;
     border-radius: 20px;
-    padding: 20px 10px;   
-    margin-left: 20px;
+    padding: 10px 20px;   
+    margin-left: 30px;
     margin-right: 20px;
     margin-top: 20px;
     background-color: white;
@@ -241,7 +240,7 @@ body{
 
 }
 .rows-one {
-    padding-left: 120px;
+    padding-left: 20px;
 }
 
 .icon-circle {
