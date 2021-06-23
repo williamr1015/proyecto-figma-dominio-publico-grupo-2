@@ -464,6 +464,82 @@ body {
   order: 2;
   flex-grow: 0;
 }
+.main-container-search {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 72px;
+}
+.main-index-search {
+  display: flex;
+  width: 520px;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.main-index-search:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+.main-index-search .icon-search {
+  background-image: url("/assets/icons/lupa-buscar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+}
+.main-index-search input {
+  width: 372px;
+  height: 24px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.main-index-search input::placeholder {
+  color: #bababa;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main-index-search .index-filtro {
+  width: 70px;
+  height: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #3366cc;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 8px;
+}
+.main-index-search .icon-down {
+  background-image: url("/assets/icons/chevron\ filtro.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 9px;
+  height: 6px;
+}
+.main-container-search button {
+  width: 120px;
+  height: 40px;
+  padding: 8px 32px;
+  background: #3366cc;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
 
 #hr-main {
   background-color: #cccccc;
