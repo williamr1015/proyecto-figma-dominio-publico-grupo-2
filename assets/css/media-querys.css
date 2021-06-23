@@ -201,6 +201,65 @@
     }
  }
 /*last card Erika*/
+@media all and (max-width: 321px) {
+        /*footer*/
+ .pagination-container {    
+       display: flex;
+       justify-content: center;
+       font-family: 'Work sans', sans-serif;
+       font-size: 14px;
+       text-align: center;
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-bottom: 20px;
+       padding-top: 20px;
+       background-color: #FAFBFD;
+       color:#004884;
+    } 
 
-
+    .pagination-container a {
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 3px;
+      color: #3366CC; 
+   }
+  .pagination-one{    
+    border-radius: 6px;    
+    width: 25px;    
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+    background: #E6EFFD;
+ }
+ .pagination-two{
+    border-radius: 6px;    
+    width: 25px;    
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+ }  
+ .pagination-dots{
+    border-radius: 6px;    
+    width: 25px;    
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+    
+ }  
+ .pagination-twenty {
+    border-radius: 6px;    
+    width: 25px;    
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+    }  
+}
 
