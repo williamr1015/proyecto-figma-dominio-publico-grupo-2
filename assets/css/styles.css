@@ -545,7 +545,7 @@ body {
   border-color: #dfe1e500;
 }
 .main-index-search .icon-search {
-  background-image: url("./assets/icons/lupa-buscar.png");
+  background-image: url("../icons/lupa-buscar.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -577,7 +577,7 @@ body {
   padding-left: 8px;
 }
 .main-index-search .icon-down {
-  background-image: url("./assets/icons/chevron\ filtro.png");
+  background-image: url("../icons/chevron filtro.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
